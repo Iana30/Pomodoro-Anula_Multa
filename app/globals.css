@@ -1,0 +1,235 @@
+* {
+  box-sizing: border-box;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+body {
+  background-image: url(../img/paisagem2.jpg);
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  
+}
+
+
+.container-tasks{
+  display: grid;
+  place-items: center;
+  padding: 10px 8px;
+  background-color: #00000075;
+  margin-top: 25em;
+  width: min(90%, 500px);
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 20%;
+  left: 50%;
+  padding: 2em 2em;
+  border-radius: 5px;
+  max-height: 50vh;
+}
+
+.container-tasks h1{
+  color: #ffffff;
+  text-align: center;
+  font-size: 30px;
+}
+
+.create{
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #9e65f4;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 4px 2px;
+  padding: 12px 64px;
+  text-decoration: none;
+  text-align: center;
+  background-color: #5b18be;
+}
+
+.edit{
+  font-size: 12px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #9e65f4;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 4px 2px;
+  padding: 6px 8px;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.delete{
+  font-size: 12px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #a9a7a7;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 5px;
+  padding: 6px 8px;
+  text-decoration: none;
+}
+
+.taskd{
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+  margin-bottom: 8px;
+  margin-right: 2em;
+  padding: 15px;
+  background-color: #3e3f4f;
+  border-radius: 0.5em;
+}
+
+.tarefa h1{
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+  border-bottom: 1px dashed #3e3f43;
+}
+
+.titulot{
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.descriçãot{
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.criart{
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #5b18be;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 4px 2px;
+  padding: 12px 64px;
+  text-decoration: none;
+  text-align: center
+}
+
+.container {
+  background-color: #00000075;
+  width: min(90%, 500px);
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  padding: 4em 2em;
+  border-radius: 0.5em;
+  margin-top: -10em;
+}
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.section-container {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+}
+.btn {
+  padding: 1em 2em;
+  border-radius: 0.5em;
+  background-color: #3e3f43;
+  color: #a9a7a7;
+  margin-top: -40px;
+  transition-duration: 0.4s;
+  transition: all 0.2 ease-in-out;
+}
+
+.btn:hover{
+  background-color: #5b18be;
+  color: #ffffff;
+  transform: scale(1.1);
+}
+
+.time-btn-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2em;
+}
+#time {
+  text-align: center;
+  color: #ffffff;
+  font-size: 7em;
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-top: -10px;
+}
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+#btn-start,
+#btn-pause {
+  padding: 1em 2em;
+  border-radius: 0.5em;
+  cursor: pointer;
+  background-color: #a9a7a7;
+  transition-duration: 0.4s;
+  transition: all 0.2 ease-in-out;
+  color: #ffffff;
+}
+
+#btn-start:hover{
+  transform: scale(1.1);
+}
+
+#btn-pause:hover{
+  transform: scale(1.1);
+}
+
+#btn-reset {
+  padding: 1em 2em;
+  border-radius: 0.5em;
+  cursor: pointer;
+  background-color: #a9a7a7;
+  transition-duration: 0.4s;
+  transition: all 0.2 ease-in-out;
+  color: #ffffff;
+}
+
+#btn-reset:hover{
+  transform: scale(1.1);
+}
+
+#btn-continue{
+  padding: 1em 2em;
+  border-radius: 0.5em;
+  cursor: pointer;
+  background-color: #a9a7a7;
+  transition-duration: 0.4s;
+  transition: all 0.2 ease-in-out;
+  color: #ffffff;
+}
+
+#btn-continue:hover{
+  transform: scale(1.1);
+}
+
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
