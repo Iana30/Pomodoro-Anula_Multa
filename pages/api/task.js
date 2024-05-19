@@ -1,5 +1,5 @@
 // pages/api/tasks/index.js
-import '../../../app/globals.css';
+import '../../app/globals.css';
 import { PrismaClient } from '@prisma/client';
 
 const prisma = new PrismaClient();
